@@ -46,13 +46,13 @@ li a:hover{
 }
 
 .header-button{
-    width: 153px;
-    height: 48px;
+    padding: 9px 32px 11px 33px;
     color: #fff;
     border-radius: 24px;
     border: 2px solid #fff;
     background-color: #014E56;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .header-button:hover{
@@ -294,19 +294,18 @@ li a:hover{
     
 }
 
-.section-started__button button{
-    width: 153px;
-    height: 48px;
+.section-started__button a{
+    padding: 9px 32px 11px 33px;
     color: #012F34;
     border-radius: 24px;
     border: 2px solid #012F34;
     background-color: #f67e7e;
     cursor: pointer;
     margin-top: 76px;
-    margin-right: 70px;
+    
 }
 
-.section-started__button button:hover{
+.section-started__button a:hover{
     background-color: #012F34;
     color: #fff;
 }

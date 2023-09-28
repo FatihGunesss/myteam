@@ -1,0 +1,241 @@
+/*Header style*/
+.header-nav__info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-logo img{
+    margin-top: 77px;
+    margin-left: 165px;
+}
+
+.header-menyu{
+    position: relative;
+    margin-top: 83px;
+    right: 350px;
+    bottom: 13px;
+    
+}
+
+.header-list{
+    list-style: none;
+    margin-left: 80px;
+}
+
+li{
+   display: inline;
+   margin-left: 40px;
+}
+
+li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+li a:hover{
+    color: #f67e7e;
+}
+
+.header-contact__us{
+    margin-top: 73px;
+    margin-right: 165px;
+}
+
+.header-button{
+    padding: 9px 32px 11px 33px;
+    color: #fff;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    background-color: #014E56;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;  
+}
+
+.header-button:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+
+
+/*Section contact style*/
+.contact-icon{
+    content: url(../img/icons/about-icon2.svg);
+    position: absolute;
+    top: 128px;
+    left: -50px;
+}
+
+.contact-about{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.contact-info__left{
+    margin-top: 72px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.contact-title{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    
+}
+
+.contact-ask{
+    color: #F67E7E;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.contact-icon__vs{
+    margin-top: -25px;
+}
+
+.section-left__img::after{
+    content: url(../img/icons/Group\ 1.svg);
+    position: absolute; 
+    bottom: 200px;
+    left: -10px;
+}
+.section-left__img2::after{
+    content: url(../img/icons/Group\ 2.svg);
+    position: absolute; 
+    bottom: 102px;
+    left: -10px;
+}
+.section-left__img3::after{
+    content: url(../img/icons/Group\ 3.svg);
+    position: absolute; 
+    bottom: 0px;
+    left: -10px;
+}
+
+.contact-left__talent{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px; 
+    padding-left: 85px;
+    padding-top: 52px;
+}
+
+.contact-info__right{
+    margin-top: 100px;
+    margin-right: -50px;
+}
+
+.contact-info__right input,textarea{
+    display: block;
+    background-color: #014E56;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    outline: none;
+    color: #fff;
+    opacity: 0.5;
+    padding-right: 400px;
+    padding-top: 42px;
+    padding-bottom: 17px;
+}
+
+::placeholder{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px; 
+    letter-spacing: -0.115px;
+    opacity: 0.5;
+    padding-left: 14px;
+}
+
+.contact-button{
+    margin-top: 35px;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color:  #004047;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px; 
+    padding: 9px 32px 11px 32px;
+}
+
+.contact-icon2::after{
+    content: url(../img/icons/contact-icon2.svg);
+    position: absolute;
+    bottom: -122px;
+    right: -40px;
+}
+
+/*Footer style*/
+.footer-box{
+    background-color: #002529; 
+    height: 196px;
+    margin-top: 120px;
+ }
+ 
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+.footer-logo__menyu{
+    padding-left: 110px;
+    padding-top: 15px;
+}
+
+.footer-logo__menyu ul{
+    padding: 0;
+}
+
+.footer-logo__menyu img{
+    padding-left: 35px;
+}
+
+.footer-location p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    opacity: 0.5;
+    padding-right: 500px;
+}
+
+.footer-icons{
+    padding-right: 80px;
+    position: relative;
+}
+
+.footer-icon{
+    padding-left: 112px;
+}
+
+.footer-icon a{
+    color: #fff;
+    font-size: 26px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.footer-icon a:hover{
+    color: #f67e7e;
+}
+
+.footer-icons p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    opacity: 0.5;
+    padding-top: 35px;
+}
